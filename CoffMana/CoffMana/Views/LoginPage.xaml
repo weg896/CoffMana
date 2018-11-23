@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CoffMana.Views.LoginPage">
+    <ContentPage.Content>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="2*" x:Name="firstRow" />
+                <RowDefinition Height="3*" />
+                <RowDefinition Height="2*" />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="100*" />
+            </Grid.ColumnDefinitions>
+            
+            <StackLayout x:Name="s1" Grid.Row="0" Grid.Column="0" BindingContext="{x:Reference Name=s1}"  >
+                <Image/>
+                <Label Text="Coffee Manager" FontSize="Large" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"/>
+            </StackLayout>
+            <StackLayout x:Name="s2" Grid.Row="1" Grid.Column="0" BindingContext="{x:Reference Name=s2}">
+                <StackLayout Padding="20,20">
+                    <Label Text="Username" FontSize="Default"/>
+                    <Entry x:Name="usernameEntry" Placeholder="username" FontSize="Small"/>
+                    <Label Text="Password"/>
+                    <Entry x:Name="passwordEntry" IsPassword="true"/>
+                    <Button Text="Login" Clicked="OnLoginButtonClicked" HorizontalOptions="Center"/>
+                    <Label x:Name="messageLabel"/>
+                </StackLayout>
+            </StackLayout>
+            <StackLayout x:Name="s3" Grid.Row="2" Grid.Column="0" BindingContext="{x:Reference Name=s3}">
+            </StackLayout>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

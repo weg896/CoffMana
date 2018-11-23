@@ -1,0 +1,53 @@
+﻿User:
+	username, (primary)
+	password,
+	temp_token,
+
+Coffee:
+	guid
+	coffee_id, (primary),
+	for_producter_id, (forgin),
+	for_farm_id, (forgin),
+	varionty,
+	process,
+	for_history_id (forgin),
+	description,
+
+Coffee_History:
+	guid
+	history_id, (primary),
+	for_coffee_id, (forgin),
+	for_user_id, (forgin)
+	start_year,
+	start_month,
+	start_day,
+	order_price,
+	sell_price,
+
+Producer:
+	guid
+	producer_id (primary),
+	name,
+	phone,
+	address,
+	picture,
+
+farm:
+	guid
+	farm_id, (primary),
+	regin,
+	latitude,
+	longitude,
+	for_producer_id (forgin)
+
+order:
+	guid,
+	order_id, (primary)
+	for_coffee_id, (forgin)
+	quantity, 
+	order_year,
+	order_month,
+	order_day,
+	order_status,
+	comment,
+

@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CoffMana.Views.PlaceOrder">
+    <ContentPage.Content>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="4*" x:Name="firstRow" />
+                <RowDefinition Height="2*" />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="100*" />
+            </Grid.ColumnDefinitions>
+            <StackLayout x:Name="s2" Grid.Row="0" Grid.Column="0" BindingContext="{x:Reference Name=s2}">
+                <StackLayout Padding="20,20">
+                    <Label Text="Coffee Type" FontSize="Default"/>
+                    <Entry x:Name="coffee_type" Placeholder="blue mount" FontSize="Small"/>
+                    <Label Text="Variety"/>
+                    <Entry x:Name="coffee_variety" Placeholder="semi dry" FontSize="Small"/>
+                    <Label Text="Quantity" FontSize="Default"/>
+                    <Entry x:Name="coffee_quantity" Placeholder="12" FontSize="Small"/>
+                    <Button Text="Place Order" HorizontalOptions="Center"/>
+                    <Label x:Name="messageLabel"/>
+                </StackLayout>
+            </StackLayout>
+            <StackLayout x:Name="s3" Grid.Row="1" Grid.Column="0" BindingContext="{x:Reference Name=s3}">
+            </StackLayout>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>
