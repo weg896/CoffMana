@@ -54,7 +54,7 @@ namespace CoffMana.Debug
 
         public async static Task<List<Order>> GetSomeFakeOrder()
         {
-            return await DatabaseService.GetDatabaseInstance().GetAllMockingCoffeeList();
+            return await DatabaseService.GetDatabaseInstance().GetAllMockingCoffeeOrderList();
         }
     }
 }

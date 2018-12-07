@@ -1,2 +1,1 @@
-C:\Users\Jerry\Documents\GitHub\CoffMana\CoffMana\CoffMana.Android\obj\Debug\MonoAndroid81\CoffMana.Android.csprojAssemblyReference.cache
-C:\Users\Jerry\Documents\GitHub\CoffMana\CoffMana\CoffMana.Android\obj\Debug\MonoAndroid81\res.flag
+C:\Users\Jerry\Documents\CMPT\CoffMana\CoffMana\CoffMana.Android\obj\Debug\MonoAndroid81\CoffMana.Android.csprojAssemblyReference.cache

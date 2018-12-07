@@ -7,16 +7,7 @@
             ItemTapped="Handle_ItemTapped"
             CachingStrategy="RecycleElement">
 
-        <!--Built in Cells-->
         <ListView.ItemTemplate>
-            <DataTemplate>
-                <TextCell Text="{Binding .}" />
-            </DataTemplate>
-        </ListView.ItemTemplate>
-
-        <!--Custom View Cells-->
-
-        <!--ListView.ItemTemplate>
       <DataTemplate>
         <ViewCell>
           <StackLayout>
@@ -27,7 +18,7 @@
           </StackLayout>
         </ViewCell>
       </DataTemplate>
-    </-->
+    </ListView.ItemTemplate>
 
     </ListView>
 </ContentPage>

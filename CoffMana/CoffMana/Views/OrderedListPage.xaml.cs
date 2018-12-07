@@ -5,6 +5,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using CoffMana.Services;
 using CoffMana.Models;
+using CoffMana.Debug;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 using System.Collections.Generic;
@@ -14,14 +15,23 @@ namespace CoffMana.Views
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class OrderedListPage : ContentPage
     {
-        public ObservableCollection<string> Items { get; set; }
+        public ObservableCollection<Order> Items { get; set; }
 
         public OrderedListPage()
         {
             InitializeComponent();
+            helperFunction();
 
-            Items = new ObservableCollection<string>();
-            List<Order> tempI = DatabaseService.GetDatabaseInstance().GetAllMockingCoffeeOrderList();
+        }
+
+        private async void helperFunction()
+        {
+            Items = new ObservableCollection<Order>();
+            List<Order> tempI = await Task.Run(() => MockingOperation.GetSomeFakeOrder());
+            foreach(Order t in tempI)
+            {
+                Items.Add(t);
+            }
 
             MyListView.ItemsSource = Items;
         }
