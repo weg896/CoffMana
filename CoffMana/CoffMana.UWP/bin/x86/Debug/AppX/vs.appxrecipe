@@ -31,13 +31,13 @@
     <AppXManifest Include="C:\Users\Jerry\Documents\CMPT\CoffMana\CoffMana\CoffMana.UWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-11-23T15:03:06.325</Modified>
+      <Modified>2018-12-05T21:38:53.648</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Jerry\Documents\CMPT\CoffMana\CoffMana\CoffMana.UWP\bin\x86\Debug\CoffMana.UWP.exe">
       <PackagePath>entrypoint\CoffMana.UWP.exe</PackagePath>
-      <Modified>2018-11-23T15:03:04.687</Modified>
+      <Modified>2018-12-05T21:38:51.244</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jerry\.nuget\packages\acr.userdialogs\7.0.1\lib\uap10.0.16299\Acr.UserDialogs.dll">
       <PackagePath>Acr.UserDialogs.dll</PackagePath>
@@ -264,11 +264,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jerry\Documents\CMPT\CoffMana\CoffMana\CoffMana.UWP\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2018-11-23T15:03:04.433</Modified>
+      <Modified>2018-12-05T21:38:50.872</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jerry\Documents\CMPT\CoffMana\CoffMana\CoffMana.UWP\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2018-11-23T15:03:04.433</Modified>
+      <Modified>2018-12-05T21:38:50.873</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.17134.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -317,7 +317,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jerry\Documents\CMPT\CoffMana\CoffMana\CoffMana.UWP\bin\x86\Debug\Core\CoffMana.UWP.exe">
       <PackagePath>CoffMana.UWP.exe</PackagePath>
-      <Modified>2018-11-23T15:03:06.317</Modified>
+      <Modified>2018-12-05T21:38:53.637</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
