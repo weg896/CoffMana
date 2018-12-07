@@ -6,32 +6,25 @@ using CoffMana.Views;
 using CoffMana.Services;
 using CoffMana.Models;
 using Acr.UserDialogs;
+using CoffMana.Debug;
 
 [assembly: XamlCompilation(XamlCompilationOptions.Compile)]
 namespace CoffMana
 {
     public partial class App : Application
     {
-        private static DatabaseService database;
         public static User currentUser;
         public static RestService restService;
 
         public App()
         {
             InitializeComponent();
-            GetDatabase(); //first init;
+            MockingOperation.InsertSomeFakeCoffee();
+            MockingOperation.InsertSomeFakeOrder();
             MainPage = new LoginPage();
         }
 
-        public static DatabaseService GetDatabase()
-        {
-            if(database == null)
-            {
-                database = new DatabaseService(Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "CoffManaDB.db3"));
-                database.creatAllTalbe();
-            }
-            return database;
-        }
+
 
         protected override void OnStart()
         {

@@ -14,7 +14,7 @@ namespace CoffMana.Models
         public int for_producter_id { get; set; } // (forgin),
         public int for_farm_id { get; set; } // (forgin),
         public int for_history_id { get; set; } // (forgin),
-        public string varionty { get; set; }
+        public string variety { get; set; }
 	    public string process { get; set; }
 	    public string description { get; set; }
     }

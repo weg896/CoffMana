@@ -18,7 +18,7 @@ namespace CoffMana.Views
 
             menuItems = new List<HomeMenuItem>
             {
-                new HomeMenuItem {Id = MenuItemType.PlaceOrder, Title="Place Order" },
+                new HomeMenuItem {Id = MenuItemType.PlaceOrder, Title="Ordered List" },
                 new HomeMenuItem {Id = MenuItemType.NonConfirmedOrder, Title="Non Confirmed Order" },
                 new HomeMenuItem {Id = MenuItemType.ShippingOrder, Title="Shipping Order" },
                 new HomeMenuItem {Id = MenuItemType.Customers, Title="Customers" },

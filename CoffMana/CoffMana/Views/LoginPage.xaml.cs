@@ -20,11 +20,10 @@ namespace CoffMana.Views
 			InitializeComponent ();
 		}
 
-        public async void OnLoginButtonClicked(object sender, EventArgs e)
+        public  void OnLoginButtonClicked(object sender, EventArgs e)
         {
             string tempUsername = usernameEntry.Text;
             string tempPassword = passwordEntry.Text;
-
 
             if (tempUsername == null || passwordEntry== null || 0 == tempUsername.CompareTo("") || 0 == tempPassword.CompareTo(""))
             {
@@ -36,14 +35,14 @@ namespace CoffMana.Views
                 App.currentUser.username = tempUsername;
                 App.currentUser.password = tempPassword;
 
-                bool tempIsAuth = false;
-                using (UserDialogs.Instance.Loading("Prepare Device for You",null, null,true, MaskType.Black))
+                /* bool tempIsAuth = false;
+                 using (UserDialogs.Instance.Loading("Prepare Device for You",null, null,true, MaskType.Black))
                 {
                     Debug.WriteLine(@""+ tempUsername +"  : " + tempPassword);
                     tempIsAuth = await Task.Run(() => loginHelper(App.currentUser));
                 }
-
-                if (tempIsAuth)
+                */
+                if (true)//tempIsAuth) // assume no password, don't care about network connection and authentication token
                 {
                     Application.Current.MainPage = new MainPage();
                 }
@@ -53,7 +52,7 @@ namespace CoffMana.Views
         private async Task<bool> loginHelper(User u)
         {
 
-            List<User> response = await App.GetDatabase().GetUserAsync(u);
+            List<User> response = await DatabaseService.GetDatabaseInstance().GetUserAsync(u);
             if(response == null || response.Count != 1)
             {
                 App.restService = new RestService();

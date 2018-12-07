@@ -32,7 +32,7 @@ namespace CoffMana.Services
             StringContent requestContent = new StringContent(json, Encoding.UTF8, "application/json");
             HttpResponseMessage response = await this.client.PostAsync(uri, requestContent);
 
-            Debug.WriteLine(@" ~~~~~ "+ client.MaxResponseContentBufferSize + "~~~");
+            // Debug.WriteLine(@" ~~~~~ "+ client.MaxResponseContentBufferSize + "~~~");
             if (response.IsSuccessStatusCode)
             {
                 string responseContent = await response.Content.ReadAsStringAsync();

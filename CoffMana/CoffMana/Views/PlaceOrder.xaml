@@ -13,13 +13,17 @@
             </Grid.ColumnDefinitions>
             <StackLayout x:Name="s2" Grid.Row="0" Grid.Column="0" BindingContext="{x:Reference Name=s2}">
                 <StackLayout Padding="20,20">
-                    <Label Text="Coffee Type" FontSize="Default"/>
-                    <Entry x:Name="coffee_type" Placeholder="blue mount" FontSize="Small"/>
-                    <Label Text="Variety"/>
-                    <Entry x:Name="coffee_variety" Placeholder="semi dry" FontSize="Small"/>
+
+                    <Label Text="Varietye" FontSize="Default"/>
+                    <Entry x:Name="variety" Placeholder="blue mount" FontSize="Small"/>
+                    
+                    <Label Text="Process"/>
+                    <Entry x:Name="process" Placeholder="semi dry" FontSize="Small"/>
+                    
                     <Label Text="Quantity" FontSize="Default"/>
-                    <Entry x:Name="coffee_quantity" Placeholder="12" FontSize="Small"/>
-                    <Button Text="Place Order" HorizontalOptions="Center"/>
+                    <Entry x:Name="quantity" Placeholder="12" FontSize="Small"/>
+
+                    <Button Text="Place Order" HorizontalOptions="Center" Clicked="OnPlaceOrderClicked"/>
                     <Label x:Name="messageLabel"/>
                 </StackLayout>
             </StackLayout>

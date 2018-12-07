@@ -26,6 +26,9 @@ namespace CoffMana.Views
             {
                 switch (id)
                 {
+                    case (int)MenuItemType.OrderedList:
+                        MenuPages.Add(id, new NavigationPage(new OrderedListPage()));
+                        break;
                     case (int)MenuItemType.PlaceOrder:
                         MenuPages.Add(id, new NavigationPage(new AboutPage()));
                         break;

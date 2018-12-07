@@ -18,5 +18,10 @@ namespace CoffMana.Models
         public int order_day { get; set; }
         public string order_status { get; set; }
         public string comment { get; set; }
+        /// <summary>
+        /// ///////////////////////////////////
+        /// </summary>
+        public string variety { get; set; }
+        public string process { get; set; }
     }
 }

@@ -6,6 +6,7 @@ namespace CoffMana.Models
 {
     public enum MenuItemType
     {
+        OrderedList,
         PlaceOrder,
         NonConfirmedOrder,
         ShippingOrder,
