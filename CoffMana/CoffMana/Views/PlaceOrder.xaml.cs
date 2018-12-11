@@ -20,7 +20,7 @@ namespace CoffMana.Views
 
         public void OnPlaceOrderClicked(object sender, EventArgs e)
         {
-            Order tempOrder = new Order();
+            CoffeeOrder tempOrder = new CoffeeOrder();
             tempOrder.order_year = DateTime.Today.Year;
             tempOrder.order_month = DateTime.Today.Month;
             tempOrder.order_day = DateTime.Today.Day;

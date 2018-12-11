@@ -8,7 +8,7 @@ Coffee:
 	coffee_id, (primary),
 	for_producter_id, (forgin),
 	for_farm_id, (forgin),
-	varionty,
+	varienty,
 	process,
 	for_history_id (forgin),
 	description,

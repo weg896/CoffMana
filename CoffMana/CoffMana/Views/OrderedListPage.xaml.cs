@@ -15,20 +15,21 @@ namespace CoffMana.Views
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class OrderedListPage : ContentPage
     {
-        public ObservableCollection<Order> Items { get; set; }
+        public ObservableCollection<CoffeeOrder> Items { get; set; }
 
         public OrderedListPage()
         {
             InitializeComponent();
             helperFunction();
-
+            Console.Write("###---");
         }
 
         private async void helperFunction()
         {
-            Items = new ObservableCollection<Order>();
-            List<Order> tempI = await Task.Run(() => MockingOperation.GetSomeFakeOrder());
-            foreach(Order t in tempI)
+            Items = new ObservableCollection<CoffeeOrder>();
+            List<CoffeeOrder> tempI = await Task.Run(() => MockingOperation.GetSomeFakeOrder());
+            System.Console.WriteLine(tempI.Capacity + "---");
+            foreach(CoffeeOrder t in tempI)
             {
                 Items.Add(t);
             }

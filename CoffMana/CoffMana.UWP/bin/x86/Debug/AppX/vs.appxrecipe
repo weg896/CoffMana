@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <Machine>DESKTOP-V0T6E7L</Machine>
+    <Machine>DESKTOP-5UOCUKE</Machine>
     <WindowsUser>Jerry</WindowsUser>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
     <TargetOsVersion>10.0</TargetOsVersion>
@@ -10,7 +10,7 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>ec0cc741-fd3e-485c-81be-68815c480690</PackageIdentityName>
     <PackageIdentityPublisher>CN=709a358b-f916-4bc6-aa9a-f7cc02aceb20</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\Jerry\Documents\GitHub\CoffMana\CoffMana\CoffMana.UWP\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\Jerry\Documents\CMPT\CoffMana\CoffMana\CoffMana.UWP\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
@@ -18,8 +18,8 @@
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\Jerry\Documents\GitHub\CoffMana\CoffMana\CoffMana.UWP\bin\x86\Debug\AppX</LayoutDir>
-    <RegisteredManifestChecksum>526C5377FC7C7875F75660F2B0AC7180C75969F0CFD0A3E79031D4EC81E771D8</RegisteredManifestChecksum>
+    <LayoutDir>C:\Users\Jerry\Documents\CMPT\CoffMana\CoffMana\CoffMana.UWP\bin\x86\Debug\AppX</LayoutDir>
+    <RegisteredManifestChecksum>8AAC7185C77DD60D8D169A9998BE349AEC93003FA08E4ABE40862BB407DA889E</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>44b32cce-d8f8-464b-9810-414468eb2f73_1.0.0.0_x86__vwychxw9nw3xa</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>44b32cce-d8f8-464b-9810-414468eb2f73_vwychxw9nw3xa!App</RegisteredUserModeAppID>
     <RegisteredPackageID>44b32cce-d8f8-464b-9810-414468eb2f73</RegisteredPackageID>
@@ -27,16 +27,16 @@
     <RegisteredVersion>1.0.0.0</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\Jerry\Documents\GitHub\CoffMana\CoffMana\CoffMana.UWP\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\Jerry\Documents\CMPT\CoffMana\CoffMana\CoffMana.UWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-12-07T00:08:29.686</Modified>
+      <Modified>2018-12-11T06:46:41.569</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\Jerry\Documents\GitHub\CoffMana\CoffMana\CoffMana.UWP\bin\x86\Debug\CoffMana.UWP.exe">
+    <AppxPackagedFile Include="C:\Users\Jerry\Documents\CMPT\CoffMana\CoffMana\CoffMana.UWP\bin\x86\Debug\CoffMana.UWP.exe">
       <PackagePath>entrypoint\CoffMana.UWP.exe</PackagePath>
-      <Modified>2018-12-07T00:08:26.553</Modified>
+      <Modified>2018-12-11T06:46:40.290</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jerry\.nuget\packages\acr.userdialogs\7.0.1\lib\uap10.0.16299\Acr.UserDialogs.dll">
       <PackagePath>Acr.UserDialogs.dll</PackagePath>
@@ -98,176 +98,176 @@
       <PackagePath>Xamarin.Forms.Xaml.dll</PackagePath>
       <Modified>2018-11-14T02:15:22.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jerry\Documents\GitHub\CoffMana\CoffMana\CoffMana\bin\Debug\netstandard2.0\CoffMana.dll">
+    <AppxPackagedFile Include="C:\Users\Jerry\Documents\CMPT\CoffMana\CoffMana\CoffMana\bin\Debug\netstandard2.0\CoffMana.dll">
       <PackagePath>CoffMana.dll</PackagePath>
-      <Modified>2018-12-07T00:08:15.483</Modified>
+      <Modified>2018-12-11T06:46:30.690</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jerry\Documents\GitHub\CoffMana\CoffMana\CoffMana.UWP\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\Jerry\Documents\CMPT\CoffMana\CoffMana\CoffMana.UWP\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
-      <Modified>2018-12-06T20:03:36.417</Modified>
+      <Modified>2018-11-15T10:49:07.619</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jerry\Documents\GitHub\CoffMana\CoffMana\CoffMana.UWP\Assets\LargeTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Jerry\Documents\CMPT\CoffMana\CoffMana\CoffMana.UWP\Assets\LargeTile.scale-100.png">
       <PackagePath>Assets\LargeTile.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-12-06T20:03:36.203</Modified>
+      <Modified>2018-11-15T10:49:06.869</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jerry\Documents\GitHub\CoffMana\CoffMana\CoffMana.UWP\Assets\LargeTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Jerry\Documents\CMPT\CoffMana\CoffMana\CoffMana.UWP\Assets\LargeTile.scale-200.png">
       <PackagePath>Assets\LargeTile.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-12-06T20:03:36.204</Modified>
+      <Modified>2018-11-15T10:49:06.874</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jerry\Documents\GitHub\CoffMana\CoffMana\CoffMana.UWP\Assets\LargeTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\Jerry\Documents\CMPT\CoffMana\CoffMana\CoffMana.UWP\Assets\LargeTile.scale-400.png">
       <PackagePath>Assets\LargeTile.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-12-06T20:03:36.260</Modified>
+      <Modified>2018-11-15T10:49:06.884</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jerry\Documents\GitHub\CoffMana\CoffMana\CoffMana.UWP\Assets\SmallTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Jerry\Documents\CMPT\CoffMana\CoffMana\CoffMana.UWP\Assets\SmallTile.scale-100.png">
       <PackagePath>Assets\SmallTile.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-12-06T20:03:36.261</Modified>
+      <Modified>2018-11-15T10:49:06.960</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jerry\Documents\GitHub\CoffMana\CoffMana\CoffMana.UWP\Assets\SmallTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Jerry\Documents\CMPT\CoffMana\CoffMana\CoffMana.UWP\Assets\SmallTile.scale-200.png">
       <PackagePath>Assets\SmallTile.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-12-06T20:03:36.263</Modified>
+      <Modified>2018-11-15T10:49:06.964</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jerry\Documents\GitHub\CoffMana\CoffMana\CoffMana.UWP\Assets\SmallTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\Jerry\Documents\CMPT\CoffMana\CoffMana\CoffMana.UWP\Assets\SmallTile.scale-400.png">
       <PackagePath>Assets\SmallTile.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-12-06T20:03:36.264</Modified>
+      <Modified>2018-11-15T10:49:06.976</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jerry\Documents\GitHub\CoffMana\CoffMana\CoffMana.UWP\Assets\SplashScreen.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Jerry\Documents\CMPT\CoffMana\CoffMana\CoffMana.UWP\Assets\SplashScreen.scale-100.png">
       <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-12-06T20:03:36.265</Modified>
+      <Modified>2018-11-15T10:49:06.980</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jerry\Documents\GitHub\CoffMana\CoffMana\CoffMana.UWP\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Jerry\Documents\CMPT\CoffMana\CoffMana\CoffMana.UWP\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-12-06T20:03:36.266</Modified>
+      <Modified>2018-11-15T10:49:07.069</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jerry\Documents\GitHub\CoffMana\CoffMana\CoffMana.UWP\Assets\SplashScreen.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\Jerry\Documents\CMPT\CoffMana\CoffMana\CoffMana.UWP\Assets\SplashScreen.scale-400.png">
       <PackagePath>Assets\SplashScreen.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-12-06T20:03:36.268</Modified>
+      <Modified>2018-11-15T10:49:07.083</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jerry\Documents\GitHub\CoffMana\CoffMana\CoffMana.UWP\Assets\Square150x150Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Jerry\Documents\CMPT\CoffMana\CoffMana\CoffMana.UWP\Assets\Square150x150Logo.scale-100.png">
       <PackagePath>Assets\Square150x150Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-12-06T20:03:36.269</Modified>
+      <Modified>2018-11-15T10:49:07.086</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jerry\Documents\GitHub\CoffMana\CoffMana\CoffMana.UWP\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Jerry\Documents\CMPT\CoffMana\CoffMana\CoffMana.UWP\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-12-06T20:03:36.270</Modified>
+      <Modified>2018-11-15T10:49:07.093</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jerry\Documents\GitHub\CoffMana\CoffMana\CoffMana.UWP\Assets\Square150x150Logo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\Jerry\Documents\CMPT\CoffMana\CoffMana\CoffMana.UWP\Assets\Square150x150Logo.scale-400.png">
       <PackagePath>Assets\Square150x150Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-12-06T20:03:36.272</Modified>
+      <Modified>2018-11-15T10:49:07.196</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jerry\Documents\GitHub\CoffMana\CoffMana\CoffMana.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-16.png">
+    <AppxPackagedFile Include="C:\Users\Jerry\Documents\CMPT\CoffMana\CoffMana\CoffMana.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-16.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-16.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-12-06T20:03:36.273</Modified>
+      <Modified>2018-11-15T10:49:07.206</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jerry\Documents\GitHub\CoffMana\CoffMana\CoffMana.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-256.png">
+    <AppxPackagedFile Include="C:\Users\Jerry\Documents\CMPT\CoffMana\CoffMana\CoffMana.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-256.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-256.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-12-06T20:03:36.274</Modified>
+      <Modified>2018-11-15T10:49:07.212</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jerry\Documents\GitHub\CoffMana\CoffMana\CoffMana.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-48.png">
+    <AppxPackagedFile Include="C:\Users\Jerry\Documents\CMPT\CoffMana\CoffMana\CoffMana.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-48.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-48.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-12-06T20:03:36.275</Modified>
+      <Modified>2018-11-15T10:49:07.219</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jerry\Documents\GitHub\CoffMana\CoffMana\CoffMana.UWP\Assets\Square44x44Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Jerry\Documents\CMPT\CoffMana\CoffMana\CoffMana.UWP\Assets\Square44x44Logo.scale-100.png">
       <PackagePath>Assets\Square44x44Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-12-06T20:03:36.372</Modified>
+      <Modified>2018-11-15T10:49:07.312</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jerry\Documents\GitHub\CoffMana\CoffMana\CoffMana.UWP\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Jerry\Documents\CMPT\CoffMana\CoffMana\CoffMana.UWP\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-12-06T20:03:36.374</Modified>
+      <Modified>2018-11-15T10:49:07.316</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jerry\Documents\GitHub\CoffMana\CoffMana\CoffMana.UWP\Assets\Square44x44Logo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\Jerry\Documents\CMPT\CoffMana\CoffMana\CoffMana.UWP\Assets\Square44x44Logo.scale-400.png">
       <PackagePath>Assets\Square44x44Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-12-06T20:03:36.377</Modified>
+      <Modified>2018-11-15T10:49:07.322</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jerry\Documents\GitHub\CoffMana\CoffMana\CoffMana.UWP\Assets\Square44x44Logo.targetsize-16.png">
+    <AppxPackagedFile Include="C:\Users\Jerry\Documents\CMPT\CoffMana\CoffMana\CoffMana.UWP\Assets\Square44x44Logo.targetsize-16.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-16.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-12-06T20:03:36.379</Modified>
+      <Modified>2018-11-15T10:49:07.333</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jerry\Documents\GitHub\CoffMana\CoffMana\CoffMana.UWP\Assets\Square44x44Logo.targetsize-256.png">
+    <AppxPackagedFile Include="C:\Users\Jerry\Documents\CMPT\CoffMana\CoffMana\CoffMana.UWP\Assets\Square44x44Logo.targetsize-256.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-256.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-12-06T20:03:36.382</Modified>
+      <Modified>2018-11-15T10:49:07.413</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jerry\Documents\GitHub\CoffMana\CoffMana\CoffMana.UWP\Assets\Square44x44Logo.targetsize-48.png">
+    <AppxPackagedFile Include="C:\Users\Jerry\Documents\CMPT\CoffMana\CoffMana\CoffMana.UWP\Assets\Square44x44Logo.targetsize-48.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-48.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-12-06T20:03:36.384</Modified>
+      <Modified>2018-11-15T10:49:07.417</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jerry\Documents\GitHub\CoffMana\CoffMana\CoffMana.UWP\Assets\StoreLogo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Jerry\Documents\CMPT\CoffMana\CoffMana\CoffMana.UWP\Assets\StoreLogo.scale-100.png">
       <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-12-06T20:03:36.389</Modified>
+      <Modified>2018-11-15T10:49:07.428</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jerry\Documents\GitHub\CoffMana\CoffMana\CoffMana.UWP\Assets\StoreLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Jerry\Documents\CMPT\CoffMana\CoffMana\CoffMana.UWP\Assets\StoreLogo.scale-200.png">
       <PackagePath>Assets\StoreLogo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-12-06T20:03:36.392</Modified>
+      <Modified>2018-11-15T10:49:07.503</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jerry\Documents\GitHub\CoffMana\CoffMana\CoffMana.UWP\Assets\StoreLogo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\Jerry\Documents\CMPT\CoffMana\CoffMana\CoffMana.UWP\Assets\StoreLogo.scale-400.png">
       <PackagePath>Assets\StoreLogo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-12-06T20:03:36.395</Modified>
+      <Modified>2018-11-15T10:49:07.509</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jerry\Documents\GitHub\CoffMana\CoffMana\CoffMana.UWP\Assets\Wide310x150Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Jerry\Documents\CMPT\CoffMana\CoffMana\CoffMana.UWP\Assets\Wide310x150Logo.scale-100.png">
       <PackagePath>Assets\Wide310x150Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-12-06T20:03:36.397</Modified>
+      <Modified>2018-11-15T10:49:07.516</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jerry\Documents\GitHub\CoffMana\CoffMana\CoffMana.UWP\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Jerry\Documents\CMPT\CoffMana\CoffMana\CoffMana.UWP\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-12-06T20:03:36.399</Modified>
+      <Modified>2018-11-15T10:49:07.521</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jerry\Documents\GitHub\CoffMana\CoffMana\CoffMana.UWP\Assets\Wide310x150Logo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\Jerry\Documents\CMPT\CoffMana\CoffMana\CoffMana.UWP\Assets\Wide310x150Logo.scale-400.png">
       <PackagePath>Assets\Wide310x150Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-12-06T20:03:36.402</Modified>
+      <Modified>2018-11-15T10:49:07.605</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jerry\Documents\GitHub\CoffMana\CoffMana\CoffMana.UWP\xamarin_logo.png">
+    <AppxPackagedFile Include="C:\Users\Jerry\Documents\CMPT\CoffMana\CoffMana\CoffMana.UWP\xamarin_logo.png">
       <PackagePath>xamarin_logo.png</PackagePath>
-      <Modified>2018-12-06T20:03:37.336</Modified>
+      <Modified>2018-11-15T10:49:08.683</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jerry\Documents\GitHub\CoffMana\CoffMana\CoffMana.UWP\add.png">
+    <AppxPackagedFile Include="C:\Users\Jerry\Documents\CMPT\CoffMana\CoffMana\CoffMana.UWP\add.png">
       <PackagePath>add.png</PackagePath>
-      <Modified>2018-12-06T20:03:36.419</Modified>
+      <Modified>2018-11-15T10:49:08.550</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jerry\Documents\GitHub\CoffMana\CoffMana\CoffMana.UWP\save.png">
+    <AppxPackagedFile Include="C:\Users\Jerry\Documents\CMPT\CoffMana\CoffMana\CoffMana.UWP\save.png">
       <PackagePath>save.png</PackagePath>
-      <Modified>2018-12-06T20:03:37.335</Modified>
+      <Modified>2018-11-15T10:49:08.673</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jerry\Documents\GitHub\CoffMana\CoffMana\CoffMana.UWP\cancel.png">
+    <AppxPackagedFile Include="C:\Users\Jerry\Documents\CMPT\CoffMana\CoffMana\CoffMana.UWP\cancel.png">
       <PackagePath>cancel.png</PackagePath>
-      <Modified>2018-12-06T20:03:37.228</Modified>
+      <Modified>2018-11-15T10:49:08.557</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jerry\Documents\GitHub\CoffMana\CoffMana\CoffMana.UWP\bin\x86\Debug\CoffMana.UWP.xr.xml">
+    <AppxPackagedFile Include="C:\Users\Jerry\Documents\CMPT\CoffMana\CoffMana\CoffMana.UWP\bin\x86\Debug\CoffMana.UWP.xr.xml">
       <PackagePath>CoffMana.UWP.xr.xml</PackagePath>
-      <Modified>2018-12-06T20:03:37.304</Modified>
+      <Modified>2018-11-15T12:00:38.994</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jerry\Documents\GitHub\CoffMana\CoffMana\CoffMana.UWP\bin\x86\Debug\App.xbf">
+    <AppxPackagedFile Include="C:\Users\Jerry\Documents\CMPT\CoffMana\CoffMana\CoffMana.UWP\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2018-12-07T00:08:26.283</Modified>
+      <Modified>2018-12-11T06:46:39.976</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jerry\Documents\GitHub\CoffMana\CoffMana\CoffMana.UWP\bin\x86\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="C:\Users\Jerry\Documents\CMPT\CoffMana\CoffMana\CoffMana.UWP\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2018-12-07T00:08:26.284</Modified>
+      <Modified>2018-12-11T06:46:39.978</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.17134.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -309,13 +309,13 @@
       <PackagePath>Xamarin.Forms.Platform.UAP\Xamarin.Forms.Platform.UAP.xr.xml</PackagePath>
       <Modified>2018-11-14T02:15:20.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jerry\Documents\GitHub\CoffMana\CoffMana\CoffMana.UWP\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\Jerry\Documents\CMPT\CoffMana\CoffMana\CoffMana.UWP\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2018-12-07T00:08:27.968</Modified>
+      <Modified>2018-12-11T05:52:32.109</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jerry\Documents\GitHub\CoffMana\CoffMana\CoffMana.UWP\bin\x86\Debug\Core\CoffMana.UWP.exe">
+    <AppxPackagedFile Include="C:\Users\Jerry\Documents\CMPT\CoffMana\CoffMana\CoffMana.UWP\bin\x86\Debug\Core\CoffMana.UWP.exe">
       <PackagePath>CoffMana.UWP.exe</PackagePath>
-      <Modified>2018-12-07T00:08:29.675</Modified>
+      <Modified>2018-12-11T06:46:41.559</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
@@ -379,15 +379,6 @@
       <Architecture>ARM</Architecture>
       <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.27023.1, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
       <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\ARM\Microsoft.VCLibs.ARM.Debug.14.00.appx</AppxLocation>
-      <MoreInfo>
-      </MoreInfo>
-    </ResolvedSDKReference>
-    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
-      <Name>Microsoft.VCLibs.140.00.Debug</Name>
-      <Version>14.0.27023.1</Version>
-      <Architecture>ARM64</Architecture>
-      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.27023.1, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
-      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\ARM64\Microsoft.VCLibs.ARM64.Debug.14.00.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>
     </ResolvedSDKReference>

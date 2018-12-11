@@ -17,7 +17,7 @@ namespace CoffMana.Views
 
             MasterBehavior = MasterBehavior.Popover;
 
-            MenuPages.Add((int)MenuItemType.PlaceOrder, (NavigationPage)Detail);
+            MenuPages.Add((int)MenuItemType.OrderedList, (NavigationPage)Detail);
         }
 
         public async Task NavigateFromMenu(int id)
@@ -27,7 +27,7 @@ namespace CoffMana.Views
                 switch (id)
                 {
                     case (int)MenuItemType.OrderedList:
-                        MenuPages.Add(id, new NavigationPage(new OrderedListPage()));
+                        MenuPages.Add(id, new NavigationPage(new AboutPage()));
                         break;
                     case (int)MenuItemType.PlaceOrder:
                         MenuPages.Add(id, new NavigationPage(new AboutPage()));

@@ -37,7 +37,7 @@ namespace CoffMana.Debug
         {
             for(int i = 0; i < 6; i++)
             {
-                Order temp = new Order();
+                CoffeeOrder temp = new CoffeeOrder();
                 temp.for_coffee_id = i%3 + 1001;
                 temp.order_day = 2;
                 temp.order_month = 1+i;
@@ -52,7 +52,7 @@ namespace CoffMana.Debug
         }
 
 
-        public async static Task<List<Order>> GetSomeFakeOrder()
+        public async static Task<List<CoffeeOrder>> GetSomeFakeOrder()
         {
             return await DatabaseService.GetDatabaseInstance().GetAllMockingCoffeeOrderList();
         }
