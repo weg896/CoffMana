@@ -1096,11 +1096,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Jerry\\Documents\\CMPT\\CoffMana\\CoffMana\\CoffMana.Android\\CoffMana.Android.csproj",
+      "projectUniqueName": "C:\\Users\\Jerry\\Documents\\GitHub\\CoffMana\\CoffMana\\CoffMana.Android\\CoffMana.Android.csproj",
       "projectName": "CoffMana.Android",
-      "projectPath": "C:\\Users\\Jerry\\Documents\\CMPT\\CoffMana\\CoffMana\\CoffMana.Android\\CoffMana.Android.csproj",
+      "projectPath": "C:\\Users\\Jerry\\Documents\\GitHub\\CoffMana\\CoffMana\\CoffMana.Android\\CoffMana.Android.csproj",
       "packagesPath": "C:\\Users\\Jerry\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Jerry\\Documents\\CMPT\\CoffMana\\CoffMana\\CoffMana.Android\\obj\\",
+      "outputPath": "C:\\Users\\Jerry\\Documents\\GitHub\\CoffMana\\CoffMana\\CoffMana.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
@@ -1117,8 +1117,8 @@
       "frameworks": {
         "monoandroid81": {
           "projectReferences": {
-            "C:\\Users\\Jerry\\Documents\\CMPT\\CoffMana\\CoffMana\\CoffMana\\CoffMana.csproj": {
-              "projectPath": "C:\\Users\\Jerry\\Documents\\CMPT\\CoffMana\\CoffMana\\CoffMana\\CoffMana.csproj"
+            "C:\\Users\\Jerry\\Documents\\GitHub\\CoffMana\\CoffMana\\CoffMana\\CoffMana.csproj": {
+              "projectPath": "C:\\Users\\Jerry\\Documents\\GitHub\\CoffMana\\CoffMana\\CoffMana\\CoffMana.csproj"
             }
           }
         }

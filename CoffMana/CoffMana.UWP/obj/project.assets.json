@@ -9589,11 +9589,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Jerry\\Documents\\CMPT\\CoffMana\\CoffMana\\CoffMana.UWP\\CoffMana.UWP.csproj",
+      "projectUniqueName": "C:\\Users\\Jerry\\Documents\\GitHub\\CoffMana\\CoffMana\\CoffMana.UWP\\CoffMana.UWP.csproj",
       "projectName": "CoffMana.UWP",
-      "projectPath": "C:\\Users\\Jerry\\Documents\\CMPT\\CoffMana\\CoffMana\\CoffMana.UWP\\CoffMana.UWP.csproj",
+      "projectPath": "C:\\Users\\Jerry\\Documents\\GitHub\\CoffMana\\CoffMana\\CoffMana.UWP\\CoffMana.UWP.csproj",
       "packagesPath": "C:\\Users\\Jerry\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Jerry\\Documents\\CMPT\\CoffMana\\CoffMana\\CoffMana.UWP\\obj\\",
+      "outputPath": "C:\\Users\\Jerry\\Documents\\GitHub\\CoffMana\\CoffMana\\CoffMana.UWP\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -9613,8 +9613,8 @@
       "frameworks": {
         "uap10.0.16299": {
           "projectReferences": {
-            "C:\\Users\\Jerry\\Documents\\CMPT\\CoffMana\\CoffMana\\CoffMana\\CoffMana.csproj": {
-              "projectPath": "C:\\Users\\Jerry\\Documents\\CMPT\\CoffMana\\CoffMana\\CoffMana\\CoffMana.csproj"
+            "C:\\Users\\Jerry\\Documents\\GitHub\\CoffMana\\CoffMana\\CoffMana\\CoffMana.csproj": {
+              "projectPath": "C:\\Users\\Jerry\\Documents\\GitHub\\CoffMana\\CoffMana\\CoffMana\\CoffMana.csproj"
             }
           }
         }

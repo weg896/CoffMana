@@ -1258,11 +1258,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Jerry\\Documents\\CMPT\\CoffMana\\CoffMana\\CoffMana.iOS\\CoffMana.iOS.csproj",
+      "projectUniqueName": "C:\\Users\\Jerry\\Documents\\GitHub\\CoffMana\\CoffMana\\CoffMana.iOS\\CoffMana.iOS.csproj",
       "projectName": "CoffMana.iOS",
-      "projectPath": "C:\\Users\\Jerry\\Documents\\CMPT\\CoffMana\\CoffMana\\CoffMana.iOS\\CoffMana.iOS.csproj",
+      "projectPath": "C:\\Users\\Jerry\\Documents\\GitHub\\CoffMana\\CoffMana\\CoffMana.iOS\\CoffMana.iOS.csproj",
       "packagesPath": "C:\\Users\\Jerry\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Jerry\\Documents\\CMPT\\CoffMana\\CoffMana\\CoffMana.iOS\\obj\\",
+      "outputPath": "C:\\Users\\Jerry\\Documents\\GitHub\\CoffMana\\CoffMana\\CoffMana.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
@@ -1279,8 +1279,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "C:\\Users\\Jerry\\Documents\\CMPT\\CoffMana\\CoffMana\\CoffMana\\CoffMana.csproj": {
-              "projectPath": "C:\\Users\\Jerry\\Documents\\CMPT\\CoffMana\\CoffMana\\CoffMana\\CoffMana.csproj"
+            "C:\\Users\\Jerry\\Documents\\GitHub\\CoffMana\\CoffMana\\CoffMana\\CoffMana.csproj": {
+              "projectPath": "C:\\Users\\Jerry\\Documents\\GitHub\\CoffMana\\CoffMana\\CoffMana\\CoffMana.csproj"
             }
           }
         }

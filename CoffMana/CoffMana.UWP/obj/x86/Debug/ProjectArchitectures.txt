@@ -1,1 +1,0 @@
-C:\Users\Jerry\Documents\CMPT\CoffMana\CoffMana\CoffMana.UWP\CoffMana.UWP.csproj;x86
