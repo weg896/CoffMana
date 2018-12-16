@@ -4,7 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using CoffMana.Models;
-
+using CoffMana.CoffDebug;
+using CoffMana.Services;
+using CoffMana.ViewModels;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -18,7 +20,7 @@ namespace CoffMana.Views
 			InitializeComponent ();
 		}
 
-        public void OnPlaceOrderClicked(object sender, EventArgs e)
+        public async void OnPlaceOrderClicked(object sender, EventArgs e)
         {
             CoffeeOrder tempOrder = new CoffeeOrder();
             tempOrder.order_year = DateTime.Today.Year;
@@ -28,6 +30,9 @@ namespace CoffMana.Views
             tempOrder.order_status = "OrderPlaced";
             tempOrder.variety = variety.Text;
             tempOrder.quantity = int.Parse(quantity.Text);
+
+            int ID = await DatabaseService.GetDatabaseInstance().InsertMockingCoffeeOrderAsync(tempOrder);
+            ToastViewPart.toastMessage("add New Coffee Order: "+ID);
         }
 	}
 }

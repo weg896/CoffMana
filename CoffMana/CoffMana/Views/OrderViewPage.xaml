@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CoffMana.Views.OrderViewPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="{Binding order_id, StringFormat='Coffee Order ID: {0,-12}'}"/>
+            <Label Text="{Binding variety, StringFormat='Coffee Variety: {0,-12}'}"/>
+            <Label Text="{Binding process, StringFormat='Coffee Process: {0,-12}'}"/>
+            <Label Text="{Binding quantity, StringFormat='Coffee Quantity: {0,-12}'}"/>
+            <Label x:Name="Order_Day"/>
+            <Image x:Name="qrcode" HorizontalOptions="Center" VerticalOptions="Center"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,22 +1,22 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
+
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="CoffMana.Views.OrderedListPage">
-   
+    
     <ListView x:Name="MyListView"
             ItemsSource="{Binding Items}"
             ItemTapped="Handle_ItemTapped"
-            CachingStrategy="RecycleElement">
+            CachingStrategy="RecycleElement"
+            SeparatorVisibility="Default">
 
         <ListView.ItemTemplate>
       <DataTemplate>
         <ViewCell>
-          <StackLayout>
-            <Label Text="{Binding Text}" 
-                   Style="{DynamicResource ListItemTextStyle}" />
-            <Label Text="{Binding Detail}" 
-                   Style="{DynamicResource ListItemDetailTextStyle}"/>
-          </StackLayout>
+                    <StackLayout >
+                        <Label Text="{Binding order_id, StringFormat='Coffee Order Id: {0:D10}'}" />
+                        <Label Text="{Binding variety, StringFormat='Coffee Variety: {0,-12}'}" />
+                    </StackLayout>
         </ViewCell>
       </DataTemplate>
     </ListView.ItemTemplate>

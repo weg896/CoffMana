@@ -8,6 +8,7 @@ using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 using Acr.UserDialogs;
 using CoffMana.Services;
+using CoffMana.ViewModels;
 using System.Diagnostics;
 
 namespace CoffMana.Views
@@ -27,7 +28,7 @@ namespace CoffMana.Views
 
             if (tempUsername == null || passwordEntry== null || 0 == tempUsername.CompareTo("") || 0 == tempPassword.CompareTo(""))
             {
-                loginFail("please type in both username and password");
+                ToastViewPart.toastMessage("please type in both username and password");
             }
             else
             {
@@ -59,7 +60,7 @@ namespace CoffMana.Views
                 App.currentUser = await App.restService.RestLogin(u);
                 if (App.currentUser == null)
                 {
-                    loginFail("please check your username and password");
+                    ToastViewPart.toastMessage("please check your username and password");
                     return false;
                 }
                 return true;
@@ -67,13 +68,6 @@ namespace CoffMana.Views
             return true;
         }
 
-        private static void loginFail(string message)
-        {
-            ToastConfig toastConfig = new ToastConfig(message);
-            toastConfig.SetDuration(2500);
-            toastConfig.SetBackgroundColor(Color.DimGray);
-            UserDialogs.Instance.Toast(toastConfig);
-        }
 
     }
 

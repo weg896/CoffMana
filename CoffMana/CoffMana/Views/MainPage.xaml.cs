@@ -27,10 +27,10 @@ namespace CoffMana.Views
                 switch (id)
                 {
                     case (int)MenuItemType.OrderedList:
-                        MenuPages.Add(id, new NavigationPage(new AboutPage()));
+                        MenuPages.Add(id, new NavigationPage(new OrderedListPage()));
                         break;
                     case (int)MenuItemType.PlaceOrder:
-                        MenuPages.Add(id, new NavigationPage(new AboutPage()));
+                        MenuPages.Add(id, new NavigationPage(new PlaceOrder()));
                         break;
                     case (int)MenuItemType.NonConfirmedOrder:
                         MenuPages.Add(id, new NavigationPage(new AboutPage()));
@@ -57,13 +57,20 @@ namespace CoffMana.Views
 
             if (newPage != null && Detail != newPage)
             {
-                Detail = newPage;
+                Detail = (Page)newPage;
 
                 if (Device.RuntimePlatform == Device.Android)
                     await Task.Delay(100);
 
                 IsPresented = false;
             }
+        }
+
+        protected override void OnAppearing()
+        {
+            base.OnAppearing();
+
+            //MasterBehavior = MasterBehavior.Popover;
         }
     }
 }

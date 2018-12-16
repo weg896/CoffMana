@@ -1,5 +1,6 @@
 ﻿using CoffMana.Models;
 using System;
+using System.Diagnostics;
 using System.Collections.Generic;
 
 using Xamarin.Forms;
@@ -15,7 +16,6 @@ namespace CoffMana.Views
         public MenuPage()
         {
             InitializeComponent();
-            Console.WriteLine("menu page init");
             menuItems = new List<HomeMenuItem>
             {
                 new HomeMenuItem {Id = MenuItemType.OrderedList, Title="Ordered List" },

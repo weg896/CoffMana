@@ -6,7 +6,7 @@ using CoffMana.Views;
 using CoffMana.Services;
 using CoffMana.Models;
 using Acr.UserDialogs;
-using CoffMana.Debug;
+using CoffMana.CoffDebug;
 
 [assembly: XamlCompilation(XamlCompilationOptions.Compile)]
 namespace CoffMana
