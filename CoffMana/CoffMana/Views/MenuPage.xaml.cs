@@ -20,6 +20,7 @@ namespace CoffMana.Views
             {
                 new HomeMenuItem {Id = MenuItemType.OrderedList, Title="Ordered List" },
                 new HomeMenuItem {Id = MenuItemType.PlaceOrder, Title="Place Order" },
+                new HomeMenuItem {Id = MenuItemType.QRCodeScan, Title="QRCode Scan" },
                 new HomeMenuItem {Id = MenuItemType.NonConfirmedOrder, Title="Non Confirmed Order" },
                 new HomeMenuItem {Id = MenuItemType.ShippingOrder, Title="Shipping Order" },
                 new HomeMenuItem {Id = MenuItemType.Customers, Title="Customers" },

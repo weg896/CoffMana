@@ -84,6 +84,32 @@
           }
         }
       },
+      "SkiaSharp.Views/1.68.0": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp": "1.68.0"
+        },
+        "compile": {
+          "lib/Xamarin.iOS/SkiaSharp.Views.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS/SkiaSharp.Views.iOS.dll": {}
+        }
+      },
+      "SkiaSharp.Views.Forms/1.68.0": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp": "1.68.0",
+          "SkiaSharp.Views": "1.68.0",
+          "Xamarin.Forms": "3.3.0.912540"
+        },
+        "compile": {
+          "lib/Xamarin.iOS/SkiaSharp.Views.Forms.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS/SkiaSharp.Views.Forms.dll": {}
+        }
+      },
       "sqlite-net-pcl/1.5.231": {
         "type": "package",
         "dependencies": {
@@ -264,15 +290,28 @@
           "build/Xamarin.Forms.targets": {}
         }
       },
+      "ZXing.Net/0.16.4": {
+        "type": "package",
+        "dependencies": {
+          "NETStandard.Library": "2.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/zxing.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/zxing.dll": {}
+        }
+      },
       "CoffMana/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Acr.UserDialogs": "7.0.1",
           "Newtonsoft.Json": "12.0.1",
-          "QRCoder": "1.3.5",
           "SkiaSharp": "1.68.0",
+          "SkiaSharp.Views.Forms": "1.68.0",
           "Xamarin.Forms": "3.4.0.1008975",
+          "ZXing.Net": "0.16.4",
           "sqlite-net-pcl": "1.5.231"
         },
         "compile": {
@@ -344,6 +383,32 @@
           "lib/Xamarin.iOS/SkiaSharp.dll": {}
         }
       },
+      "SkiaSharp.Views/1.68.0": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp": "1.68.0"
+        },
+        "compile": {
+          "lib/Xamarin.iOS/SkiaSharp.Views.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS/SkiaSharp.Views.iOS.dll": {}
+        }
+      },
+      "SkiaSharp.Views.Forms/1.68.0": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp": "1.68.0",
+          "SkiaSharp.Views": "1.68.0",
+          "Xamarin.Forms": "3.3.0.912540"
+        },
+        "compile": {
+          "lib/Xamarin.iOS/SkiaSharp.Views.Forms.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS/SkiaSharp.Views.Forms.dll": {}
+        }
+      },
       "sqlite-net-pcl/1.5.231": {
         "type": "package",
         "dependencies": {
@@ -524,15 +589,28 @@
           "build/Xamarin.Forms.targets": {}
         }
       },
+      "ZXing.Net/0.16.4": {
+        "type": "package",
+        "dependencies": {
+          "NETStandard.Library": "2.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/zxing.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/zxing.dll": {}
+        }
+      },
       "CoffMana/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Acr.UserDialogs": "7.0.1",
           "Newtonsoft.Json": "12.0.1",
-          "QRCoder": "1.3.5",
           "SkiaSharp": "1.68.0",
+          "SkiaSharp.Views.Forms": "1.68.0",
           "Xamarin.Forms": "3.4.0.1008975",
+          "ZXing.Net": "0.16.4",
           "sqlite-net-pcl": "1.5.231"
         },
         "compile": {
@@ -607,6 +685,32 @@
           "runtimes/win-x64/native/libSkiaSharp.dll": {}
         }
       },
+      "SkiaSharp.Views/1.68.0": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp": "1.68.0"
+        },
+        "compile": {
+          "lib/Xamarin.iOS/SkiaSharp.Views.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS/SkiaSharp.Views.iOS.dll": {}
+        }
+      },
+      "SkiaSharp.Views.Forms/1.68.0": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp": "1.68.0",
+          "SkiaSharp.Views": "1.68.0",
+          "Xamarin.Forms": "3.3.0.912540"
+        },
+        "compile": {
+          "lib/Xamarin.iOS/SkiaSharp.Views.Forms.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS/SkiaSharp.Views.Forms.dll": {}
+        }
+      },
       "sqlite-net-pcl/1.5.231": {
         "type": "package",
         "dependencies": {
@@ -787,15 +891,28 @@
           "build/Xamarin.Forms.targets": {}
         }
       },
+      "ZXing.Net/0.16.4": {
+        "type": "package",
+        "dependencies": {
+          "NETStandard.Library": "2.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/zxing.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/zxing.dll": {}
+        }
+      },
       "CoffMana/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Acr.UserDialogs": "7.0.1",
           "Newtonsoft.Json": "12.0.1",
-          "QRCoder": "1.3.5",
           "SkiaSharp": "1.68.0",
+          "SkiaSharp.Views.Forms": "1.68.0",
           "Xamarin.Forms": "3.4.0.1008975",
+          "ZXing.Net": "0.16.4",
           "sqlite-net-pcl": "1.5.231"
         },
         "compile": {
@@ -870,6 +987,32 @@
           "runtimes/win-x86/native/libSkiaSharp.dll": {}
         }
       },
+      "SkiaSharp.Views/1.68.0": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp": "1.68.0"
+        },
+        "compile": {
+          "lib/Xamarin.iOS/SkiaSharp.Views.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS/SkiaSharp.Views.iOS.dll": {}
+        }
+      },
+      "SkiaSharp.Views.Forms/1.68.0": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp": "1.68.0",
+          "SkiaSharp.Views": "1.68.0",
+          "Xamarin.Forms": "3.3.0.912540"
+        },
+        "compile": {
+          "lib/Xamarin.iOS/SkiaSharp.Views.Forms.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS/SkiaSharp.Views.Forms.dll": {}
+        }
+      },
       "sqlite-net-pcl/1.5.231": {
         "type": "package",
         "dependencies": {
@@ -1050,15 +1193,28 @@
           "build/Xamarin.Forms.targets": {}
         }
       },
+      "ZXing.Net/0.16.4": {
+        "type": "package",
+        "dependencies": {
+          "NETStandard.Library": "2.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/zxing.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/zxing.dll": {}
+        }
+      },
       "CoffMana/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Acr.UserDialogs": "7.0.1",
           "Newtonsoft.Json": "12.0.1",
-          "QRCoder": "1.3.5",
           "SkiaSharp": "1.68.0",
+          "SkiaSharp.Views.Forms": "1.68.0",
           "Xamarin.Forms": "3.4.0.1008975",
+          "ZXing.Net": "0.16.4",
           "sqlite-net-pcl": "1.5.231"
         },
         "compile": {
@@ -1215,6 +1371,65 @@
         "skiasharp.1.68.0.nupkg.sha512",
         "skiasharp.nuspec",
         "xamarin.interactive/SkiaSharp.Workbooks.dll"
+      ]
+    },
+    "SkiaSharp.Views/1.68.0": {
+      "sha512": "XbC4051gj1Q9XdKkzoUKmHKmGprie9KrOVJ9MYPK4Dpk/FDidPpH6Ga0w0uH4x41GTJgShSRQXsdt566b2NIMA==",
+      "type": "package",
+      "path": "skiasharp.views/1.68.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "lib/MonoAndroid/SkiaSharp.Views.Android.dll",
+        "lib/MonoAndroid/SkiaSharp.Views.Android.xml",
+        "lib/Xamarin.Mac20/SkiaSharp.Views.Mac.dll",
+        "lib/Xamarin.Mac20/SkiaSharp.Views.Mac.xml",
+        "lib/Xamarin.TVOS/SkiaSharp.Views.tvOS.dll",
+        "lib/Xamarin.TVOS/SkiaSharp.Views.tvOS.xml",
+        "lib/Xamarin.WatchOS/SkiaSharp.Views.watchOS.dll",
+        "lib/Xamarin.WatchOS/SkiaSharp.Views.watchOS.xml",
+        "lib/Xamarin.iOS/SkiaSharp.Views.iOS.dll",
+        "lib/Xamarin.iOS/SkiaSharp.Views.iOS.xml",
+        "lib/net45/SkiaSharp.Views.Desktop.dll",
+        "lib/net45/SkiaSharp.Views.Desktop.xml",
+        "lib/net45/SkiaSharp.Views.Gtk.dll",
+        "lib/net45/SkiaSharp.Views.Gtk.xml",
+        "lib/net45/SkiaSharp.Views.WPF.dll",
+        "lib/net45/SkiaSharp.Views.WPF.xml",
+        "lib/tizen40/SkiaSharp.Views.Tizen.dll",
+        "lib/tizen40/SkiaSharp.Views.Tizen.xml",
+        "lib/uap10.0/SkiaSharp.Views.UWP.dll",
+        "lib/uap10.0/SkiaSharp.Views.UWP.xml",
+        "runtimes/win10-arm/nativeassets/uap10.0/SkiaSharp.Views.Interop.UWP.dll",
+        "runtimes/win10-x64/nativeassets/uap10.0/SkiaSharp.Views.Interop.UWP.dll",
+        "runtimes/win10-x86/nativeassets/uap10.0/SkiaSharp.Views.Interop.UWP.dll",
+        "skiasharp.views.1.68.0.nupkg.sha512",
+        "skiasharp.views.nuspec"
+      ]
+    },
+    "SkiaSharp.Views.Forms/1.68.0": {
+      "sha512": "As1LklMPgG+i/y/d5z2EGKOheRHrTVsGCz/2HTvhtIL6GFnXDcApKfxTSNhRNi8OyQJoLgODCpQqjm0tY58j1Q==",
+      "type": "package",
+      "path": "skiasharp.views.forms/1.68.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "lib/MonoAndroid/SkiaSharp.Views.Forms.dll",
+        "lib/MonoAndroid/SkiaSharp.Views.Forms.xml",
+        "lib/Xamarin.Mac20/SkiaSharp.Views.Forms.dll",
+        "lib/Xamarin.Mac20/SkiaSharp.Views.Forms.xml",
+        "lib/Xamarin.iOS/SkiaSharp.Views.Forms.dll",
+        "lib/Xamarin.iOS/SkiaSharp.Views.Forms.xml",
+        "lib/netstandard1.3/SkiaSharp.Views.Forms.dll",
+        "lib/netstandard1.3/SkiaSharp.Views.Forms.xml",
+        "lib/tizen40/SkiaSharp.Views.Forms.dll",
+        "lib/tizen40/SkiaSharp.Views.Forms.xml",
+        "lib/uap10.0/SkiaSharp.Views.Forms.dll",
+        "lib/uap10.0/SkiaSharp.Views.Forms.xml",
+        "skiasharp.views.forms.1.68.0.nupkg.sha512",
+        "skiasharp.views.forms.nuspec"
       ]
     },
     "sqlite-net-pcl/1.5.231": {
@@ -1495,6 +1710,101 @@
         "lib/uap10.0/Xamarin.Forms.Xaml.xml",
         "xamarin.forms.3.4.0.1008975.nupkg.sha512",
         "xamarin.forms.nuspec"
+      ]
+    },
+    "ZXing.Net/0.16.4": {
+      "sha512": "qf5XDrWsxXvINh1kPUwVx8uPsvjGLRqw23a21C8scpgIsXnduKS1phBMf959Y5TrtFfFwvjRaZoZ4VRV51VdFg==",
+      "type": "package",
+      "path": "zxing.net/0.16.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/MonoAndroid/zxing.monoandroid.dll",
+        "lib/MonoAndroid/zxing.monoandroid.pdb",
+        "lib/MonoAndroid/zxing.monoandroid.xml",
+        "lib/native/zxing.XML",
+        "lib/native/zxing.pdb",
+        "lib/native/zxing.pri",
+        "lib/native/zxing.winmd",
+        "lib/net20-cf/zxing.ce2.0.dll",
+        "lib/net20-cf/zxing.ce2.0.pdb",
+        "lib/net20-cf/zxing.ce2.0.xml",
+        "lib/net20/zxing.XML",
+        "lib/net20/zxing.dll",
+        "lib/net20/zxing.pdb",
+        "lib/net35-cf/zxing.ce3.5.dll",
+        "lib/net35-cf/zxing.ce3.5.pdb",
+        "lib/net35-cf/zxing.ce3.5.xml",
+        "lib/net35/zxing.XML",
+        "lib/net35/zxing.dll",
+        "lib/net35/zxing.pdb",
+        "lib/net40/zxing.XML",
+        "lib/net40/zxing.dll",
+        "lib/net40/zxing.pdb",
+        "lib/net40/zxing.presentation.XML",
+        "lib/net40/zxing.presentation.dll",
+        "lib/net40/zxing.presentation.pdb",
+        "lib/net45/zxing.XML",
+        "lib/net45/zxing.dll",
+        "lib/net45/zxing.pdb",
+        "lib/net45/zxing.presentation.XML",
+        "lib/net45/zxing.presentation.dll",
+        "lib/net45/zxing.presentation.pdb",
+        "lib/net461/zxing.XML",
+        "lib/net461/zxing.dll",
+        "lib/net461/zxing.pdb",
+        "lib/net461/zxing.presentation.XML",
+        "lib/net461/zxing.presentation.dll",
+        "lib/net461/zxing.presentation.pdb",
+        "lib/net47/zxing.XML",
+        "lib/net47/zxing.dll",
+        "lib/net47/zxing.pdb",
+        "lib/net47/zxing.presentation.XML",
+        "lib/net47/zxing.presentation.dll",
+        "lib/net47/zxing.presentation.pdb",
+        "lib/netstandard1.0/zxing.dll",
+        "lib/netstandard1.0/zxing.pdb",
+        "lib/netstandard1.0/zxing.xml",
+        "lib/netstandard1.1/zxing.dll",
+        "lib/netstandard1.1/zxing.pdb",
+        "lib/netstandard1.1/zxing.xml",
+        "lib/netstandard1.3/zxing.dll",
+        "lib/netstandard1.3/zxing.pdb",
+        "lib/netstandard1.3/zxing.xml",
+        "lib/netstandard2.0/zxing.dll",
+        "lib/netstandard2.0/zxing.pdb",
+        "lib/netstandard2.0/zxing.xml",
+        "lib/portable-win+net40+sl4+sl5+wp7+wp71+wp8/zxing.portable.XML",
+        "lib/portable-win+net40+sl4+sl5+wp7+wp71+wp8/zxing.portable.dll",
+        "lib/portable-win+net40+sl4+sl5+wp7+wp71+wp8/zxing.portable.pdb",
+        "lib/sl3-wp/zxing.wp7.0.XML",
+        "lib/sl3-wp/zxing.wp7.0.dll",
+        "lib/sl3-wp/zxing.wp7.0.pdb",
+        "lib/sl4-wp71/zxing.wp7.1.XML",
+        "lib/sl4-wp71/zxing.wp7.1.dll",
+        "lib/sl4-wp71/zxing.wp7.1.pdb",
+        "lib/sl4/zxing.sl4.XML",
+        "lib/sl4/zxing.sl4.dll",
+        "lib/sl4/zxing.sl4.pdb",
+        "lib/sl5/zxing.sl5.XML",
+        "lib/sl5/zxing.sl5.dll",
+        "lib/sl5/zxing.sl5.pdb",
+        "lib/uap10/zxing.dll",
+        "lib/uap10/zxing.pdb",
+        "lib/uap10/zxing.pri",
+        "lib/uap10/zxing.xml",
+        "lib/windows8-managed/zxing.winrt.XML",
+        "lib/windows8-managed/zxing.winrt.dll",
+        "lib/windows8-managed/zxing.winrt.pdb",
+        "lib/windows8/zxing.XML",
+        "lib/windows8/zxing.pdb",
+        "lib/windows8/zxing.pri",
+        "lib/windows8/zxing.winmd",
+        "lib/wp8/zxing.wp8.0.XML",
+        "lib/wp8/zxing.wp8.0.dll",
+        "lib/wp8/zxing.wp8.0.pdb",
+        "zxing.net.0.16.4.nupkg.sha512",
+        "zxing.net.nuspec"
       ]
     },
     "CoffMana/1.0.0": {

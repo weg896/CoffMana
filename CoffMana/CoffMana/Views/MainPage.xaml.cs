@@ -32,6 +32,9 @@ namespace CoffMana.Views
                     case (int)MenuItemType.PlaceOrder:
                         MenuPages.Add(id, new NavigationPage(new PlaceOrder()));
                         break;
+                    case (int)MenuItemType.QRCodeScan:
+                        MenuPages.Add(id, new NavigationPage(new ScanQRCodePage()));
+                        break;
                     case (int)MenuItemType.NonConfirmedOrder:
                         MenuPages.Add(id, new NavigationPage(new AboutPage()));
                         break;

@@ -4,35 +4,106 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using SkiaSharp;
+using SkiaSharp.Views.Forms;
+using System.Drawing;
 using CoffMana.Models;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
-using QRCoder;
-using System.Drawing;
+using ZXing.QrCode;
+using ZXing.Common;
+using ZXing;
 
 namespace CoffMana.Views
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
 	public partial class OrderViewPage : ContentPage
 	{
-		public OrderViewPage (CoffeeOrder order)
+        SKBitmap skbmp;
+
+
+        public OrderViewPage (CoffeeOrder order)
 		{
 			InitializeComponent ();
             BindingContext = order;
-            /*
-            if(coffeeOrderItem != null)
+
+            if(order != null)
             {
-                Order_Day.Text = "Create Date :" + coffeeOrderItem.order_year + "-" + coffeeOrderItem.order_month + "-" + coffeeOrderItem.order_day;
-                String tempStr =""+ coffeeOrderItem.order_id;
+                Order_Day.Text = "Create Date :" + order.order_year + "-" + order.order_month + "-" + order.order_day;
+                String tempStr =""+ order.order_id;
 
-                QRCodeGenerator qrGenerator = new QRCodeGenerator();
-                QRCodeData qrCodeData = qrGenerator.CreateQrCode(tempStr, QRCodeGenerator.ECCLevel.Q);
-                QRCode qrCode = new QRCode(qrCodeData);
-                Bitmap qrCodeImage = qrCode.GetGraphic(20);
 
-            }
+                QRCodeWriter qrwriter = new QRCodeWriter();
+                BitMatrix bmqr = qrwriter.encode(tempStr, ZXing.BarcodeFormat.QR_CODE, 750, 750);
+
+
+/*
+                IBarcodeWriter writer = new BarcodeWriter
+                { Format = BarcodeFormat.QR_CODE };
+                var result = writer.Write("Hello");
+                var barcodeBitmap = new Bitmap(result);
+                pictureBox1.Image = barcodeBitmap;
+                */
+                skbmp = new SKBitmap(bmqr.Width,bmqr.Height);
+                for(int i=0;i<bmqr.Width; i++)
+                {
+                    for(int j = 0; j < bmqr.Height; j++)
+                    {
+                        if (bmqr[i, j])
+                        {
+                            skbmp.SetPixel(i, j, new SKColor(255, 255, 255));
+                        }
+                        else
+                        {
+                            skbmp.SetPixel(i, j, new SKColor(0, 0, 0));
+                        }
+                    }
+                }
+
+                /*= new ZXingBarcodeImageView
+            {
+                BarcodeFormat = BarcodeFormat.QR_CODE,
+                BarcodeOptions = new QrCodeEncodingOptions
+                {
+                    Height = 50,
+                    Width = 50
+                },
+                BarcodeValue = tempStr,
+            };
+            Content = new StackLayout
+            {
+                Children = {
+                    qrcode
+                },
+                BackgroundColor = Xamarin.Forms.Color.Black
+            };
             */
+            }
+
         }
 
-	}
+        public void OnCanvasViewPaintSurface(object sender, SKPaintSurfaceEventArgs args)
+        {
+
+            if (skbmp != null)
+            {
+                SKImageInfo info = args.Info;
+                SKSurface surface = args.Surface;
+                SKCanvas canvas = surface.Canvas;
+            
+                canvas.Clear();
+
+                // uniform scaled qr code
+                float scale = Math.Min((float)info.Width / skbmp.Width,
+                                       (float)info.Height / skbmp.Height);
+                float x = (info.Width - scale * skbmp.Width) / 2;
+                float y = (info.Height - scale * skbmp.Height) / 2;
+                SKRect destRect = new SKRect(x, y, x + scale * skbmp.Width,
+                                                   y + scale * skbmp.Height);
+                
+                canvas.DrawBitmap(skbmp, destRect);
+
+            }
+        }
+    }
 }
+

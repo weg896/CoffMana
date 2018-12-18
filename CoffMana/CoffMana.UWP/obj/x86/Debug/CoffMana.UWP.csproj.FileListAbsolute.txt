@@ -135,3 +135,9 @@ C:\Users\Jerry\Documents\GitHub\CoffMana\CoffMana\CoffMana.UWP\bin\x86\Debug\lib
 C:\Users\Jerry\Documents\GitHub\CoffMana\CoffMana\CoffMana.UWP\bin\x86\Debug\SkiaSharp.dll
 C:\Users\Jerry\Documents\GitHub\CoffMana\CoffMana\CoffMana.UWP\bin\x86\Debug\System.Drawing.Common.dll
 C:\Users\Jerry\Documents\GitHub\CoffMana\CoffMana\CoffMana.UWP\obj\x86\Debug\FxResources.System.Drawing.Common.SR.resw
+C:\Users\Jerry\Documents\GitHub\CoffMana\CoffMana\CoffMana.UWP\bin\x86\Debug\SkiaSharp.Views.Interop.UWP.dll
+C:\Users\Jerry\Documents\GitHub\CoffMana\CoffMana\CoffMana.UWP\bin\x86\Debug\SkiaSharp.Views.UWP.dll
+C:\Users\Jerry\Documents\GitHub\CoffMana\CoffMana\CoffMana.UWP\bin\x86\Debug\SkiaSharp.Views.Forms.dll
+C:\Users\Jerry\Documents\GitHub\CoffMana\CoffMana\CoffMana.UWP\bin\x86\Debug\zxing.dll
+C:\Users\Jerry\Documents\GitHub\CoffMana\CoffMana\CoffMana.UWP\bin\x86\Debug\zxing.pdb
+C:\Users\Jerry\Documents\GitHub\CoffMana\CoffMana\CoffMana.UWP\obj\x86\Debug\zxing.pri.xml

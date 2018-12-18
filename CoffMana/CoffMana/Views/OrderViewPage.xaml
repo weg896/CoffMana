@@ -1,15 +1,31 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:skia="clr-namespace:SkiaSharp.Views.Forms;assembly=SkiaSharp.Views.Forms"
              x:Class="CoffMana.Views.OrderViewPage">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="{Binding order_id, StringFormat='Coffee Order ID: {0,-12}'}"/>
-            <Label Text="{Binding variety, StringFormat='Coffee Variety: {0,-12}'}"/>
-            <Label Text="{Binding process, StringFormat='Coffee Process: {0,-12}'}"/>
-            <Label Text="{Binding quantity, StringFormat='Coffee Quantity: {0,-12}'}"/>
-            <Label x:Name="Order_Day"/>
-            <Image x:Name="qrcode" HorizontalOptions="Center" VerticalOptions="Center"/>
-        </StackLayout>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+            <StackLayout Grid.Row="0" >
+                <Label Text="{Binding order_id, StringFormat='Coffee Order ID: {0,-12}'}"/>
+                <Label Text="{Binding variety, StringFormat='Coffee Variety: {0,-12}'}"/>
+                <Label Text="{Binding process, StringFormat='Coffee Process: {0,-12}'}"/>
+                <Label Text="{Binding quantity, StringFormat='Coffee Quantity: {0,-12}'}"/>
+                <Label x:Name="Order_Day"/>
+
+            </StackLayout>
+            <skia:SKCanvasView
+                Grid.Row="1"
+                x:Name="canvasView"
+                VerticalOptions="FillAndExpand"
+                HorizontalOptions="FillAndExpand"
+                PaintSurface="OnCanvasViewPaintSurface"/>
+        </Grid>
     </ContentPage.Content>
 </ContentPage>

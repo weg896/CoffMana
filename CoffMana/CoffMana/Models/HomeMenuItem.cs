@@ -8,6 +8,7 @@ namespace CoffMana.Models
     {
         OrderedList,
         PlaceOrder,
+        QRCodeScan,
         NonConfirmedOrder,
         ShippingOrder,
         Customers,
